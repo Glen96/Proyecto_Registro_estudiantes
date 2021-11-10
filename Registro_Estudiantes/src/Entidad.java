@@ -1,5 +1,7 @@
 import java.util.Date;
 
+
+//Se crea la clase entidad con todos sus atributos
 public abstract class Entidad {
     protected String Nombre;
     protected String Nacionalidad;
@@ -7,6 +9,8 @@ public abstract class Entidad {
     protected Date fechaNacimiento;
     protected int cedula;
 
+
+    //Se crean los setts y getters por cada atributo
     public String getNombre() {
         return Nombre;
     }
