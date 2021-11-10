@@ -1,8 +1,10 @@
+import javax.swing.JOptionPane;
+
 public class Estudiante extends Entidad{
     
-    public int idEstudiante;
+    protected int idEstudiante;
 
     private void Matricular(){
-        
+        JOptionPane.showMessageDialog(null, "message");
     }
 }
