@@ -1,16 +1,17 @@
 import java.util.Date;
 
-
-//Se crea la clase entidad con todos sus atributos
 public abstract class Entidad {
+
+    // Se declaran todas las variables protegidas ya que se van a utilizar en otras
+    // clases con herencia.
     protected String Nombre;
     protected String Nacionalidad;
     protected short edad;
     protected Date fechaNacimiento;
     protected int cedula;
 
-
-    //Se crean los setts y getters por cada atributo
+    // se generan los setters y getters necesarios para el funcionamiento de la
+    // clase
     public String getNombre() {
         return Nombre;
     }
