@@ -50,5 +50,4 @@ public abstract class Entidad {
     public void setCedula(int cedula) {
         this.cedula = cedula;
     }
-
 }
