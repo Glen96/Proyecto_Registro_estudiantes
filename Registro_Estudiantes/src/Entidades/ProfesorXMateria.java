@@ -1,3 +1,4 @@
+package Entidades;
 public class ProfesorXMateria extends Materia {
         //protected int codProfesor;
     //protected int codCurso;

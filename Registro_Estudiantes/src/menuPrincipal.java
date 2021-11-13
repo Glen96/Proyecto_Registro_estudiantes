@@ -25,7 +25,7 @@ public class MenuPrincipal {
                     if(opc3 == 1){
                         universidad1.getMatricula().buscarestudiante();
                     } else if(opc3 == 2){
-                        JOptionPane.showMessageDialog(null, universidad1.getMatricula().mostrarEstudiante());
+                        JOptionPane.showMessageDialog(null,universidad1.getMatricula().mostrarEstudiante());
                     }
                     break;
                 default:

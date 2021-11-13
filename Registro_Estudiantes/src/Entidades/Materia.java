@@ -1,3 +1,4 @@
+package Entidades;
 public class Materia {
     private String nombreCurso = "Matematicas";
     private String descrip = "Materia que se lleva en el segundo cuatrimestre de la carrera.";
